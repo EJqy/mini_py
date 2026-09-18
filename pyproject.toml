@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qingyiji-mini-hello"
+version = "0.1.0"
+description = "一个用来学习 Python 打包和发布的最小项目"
+
+[tool.setuptools]
+py-modules = ["mini_hello"]
